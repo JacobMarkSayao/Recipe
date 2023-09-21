@@ -1006,6 +1006,9 @@ img {
   display: flex;
   flex-direction: row;
 }
+.banner__text {
+  align-items: center;
+}
 .banner small {
   color: #D99649;
 }
