@@ -1,0 +1,29 @@
+@use "../abstract" as *;
+@use "../base" as *;
+
+.banner {
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    &__text {
+        padding: ;
+    }
+    background-color: $clr--light;
+    small {
+        color: $clr--brown;
+    }
+    h1 {
+        font-size: 4rem;
+        color: $clr--dark;
+    }
+    p {
+        color: $clr--dark;
+        font-size: 1.5rem;
+    }
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+}
